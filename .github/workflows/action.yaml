@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   lint: 
-    runs-on: ubuntu-test
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout out code
         uses: actions/checkout@v2
