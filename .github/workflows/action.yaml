@@ -76,7 +76,7 @@ jobs:
         run: |
           aws lambda update-function-code \
             --function-name my-function \
-            --s3-bucket my-bucket-38sfdsgfgdfg \
+            --s3-bucket my-bucket-38sfdsgfgdfgdfg \
             --s3-key ${{ github.sha }}.zip \
             --publish
             
